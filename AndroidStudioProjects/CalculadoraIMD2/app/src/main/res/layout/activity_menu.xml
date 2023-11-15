@@ -24,7 +24,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/textViewmenu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/app_name"
@@ -58,7 +58,7 @@
             app:layout_constraintVertical_bias="0.251" />
 
         <Button
-            android:id="@+id/Cadastrar"
+            android:id="@+id/cadastrar"
             android:layout_width="113dp"
             android:layout_height="71dp"
             android:background="#000000"
@@ -80,20 +80,20 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.271"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Cadastrar"
-            app:layout_constraintVertical_bias="0.15" />
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            app:layout_constraintVertical_bias="0.435" />
 
         <Button
-            android:id="@+id/deletar"
+            android:id="@+id/voltar"
             android:layout_width="113dp"
             android:layout_height="71dp"
             android:background="#000000"
             android:text="Deletar produto"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.211"
-            app:layout_constraintStart_toEndOf="@+id/alterar"
-            app:layout_constraintTop_toBottomOf="@+id/Cadastrar"
+            app:layout_constraintHorizontal_bias="0.724"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cadastrar"
             app:layout_constraintVertical_bias="0.15" />
 
         <Button
@@ -105,7 +105,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.211"
-            app:layout_constraintStart_toEndOf="@+id/Cadastrar"
+            app:layout_constraintStart_toEndOf="@+id/cadastrar"
             app:layout_constraintTop_toBottomOf="@+id/textView9"
             app:layout_constraintVertical_bias="0.179" />
 
@@ -116,7 +116,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/deletar"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            app:layout_constraintVertical_bias="0.706"
             app:srcCompat="?attr/actionModeSelectAllDrawable" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
